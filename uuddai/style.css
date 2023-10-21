@@ -1,0 +1,138 @@
+.header {
+  background-image: url(../imgs/bg-header-lp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo > a > img {
+  width: 75px;
+  height: 75px;
+}
+.main-menu {
+  display: flex;
+  padding-top: 20px;
+  margin-left: 50px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.main-menu > li {
+  padding-right: 70px;
+}
+.main-menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 5px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.row {
+  display: flex;
+}
+.uudai-header-col {
+  margin: 60px 0;
+}
+.uudai-header {
+  font-size: 56px;
+  color: #d18e00;
+  margin-top: 50px;
+}
+.uudai-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.content-left {
+  width: 45%;
+}
+.uudai-img > img {
+  height: 100%;
+  width: 100%;
+}
+.content-right {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  margin: 25px;
+  width: 55%;
+}
+.uudai-brand-wrap {
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.uudai-brand {
+  background-color: black;
+  width: fit-content;
+  padding: 5px 12px;
+  color: white;
+  float: left;
+  margin-right: 15px;
+}
+.uudai-title {
+  margin-top: 16px;
+}
+.uudai-title > a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.uudai-description {
+  margin-top: 12px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.uudai-viewmore > a {
+  color: black;
+  font-style: italic;
+}
+
+.footer {
+  background-color: #df5800;
+  padding: 60px;
+  color: white;
+  font-size: 20px;
+}
+.footer-left {
+  width: 55%;
+}
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.box-footer-r {
+  display: flex;
+}
+.social > a {
+  font-size: 35px;
+  color: white;
+  padding-right: 25px;
+  animation: slide-down;
+}
+
+@media only screen and (max-width: 1000px) {
+  .uudai-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-left {
+    width: 100%;
+  }
+  .content-right {
+    padding-top: 10px;
+    margin: 0;
+  }
+}
